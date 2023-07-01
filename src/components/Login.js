@@ -38,7 +38,7 @@ const Login = () => {
     <div>
 
       <form onSubmit={handleSubmit} className="login-form">
-        <h3 style={{ color: "Green" }}>Todo Apllication Login</h3>
+        <h3 style={{ color: "Green" }}>Todo Application <br />Login</h3>
         <div>
           <label htmlFor="email">Email:</label>
           <input type="email" name="email" id="email" onChange={handleChange} value={email} />
